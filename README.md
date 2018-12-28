@@ -23,7 +23,6 @@ Protractor with cucumber using page object model with reporting
 
 * Open Node.js command prompt
 * CMD/Terminal > type in: "npm i -g protractor"
-* Once downloaded, CMD/Terminal > type in: "npm run prestart"
 
 1. Navigate to project directory (Cloned)
 2. Verify presence of package.json file
@@ -33,7 +32,7 @@ Protractor with cucumber using page object model with reporting
 
 ## Running the tests
 
-1. Open Node.js command prompt and execute: "npm run server" > this will start Selenium server locally
+1. Open Node.js command prompt and execute: "npm run start" > this will start Selenium server locally after update
 2. Open 2nd Node.js command prompt positioned in project root
 3. CMD/Terminal > type in: "npm test"
 

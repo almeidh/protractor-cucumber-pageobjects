@@ -1,3 +1,4 @@
+
 exports.config = {
   seleniumAddress: 'http://localhost:4444/wd/hub',
 
@@ -8,7 +9,7 @@ exports.config = {
     'features/*.feature'
   ],
   cucumberOpts: {
-    require: 'steps/*_steps.js',
+    require: 'steps/*-steps.js',
     format: 'pretty'
   }
 }

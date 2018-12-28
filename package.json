@@ -10,7 +10,7 @@
   },
   "scripts": {
     "prestart": "webdriver-manager update",
-    "server": "webdriver-manager start",
+    "start": "webdriver-manager start",
     "test": "protractor conf.js"
   }
 }
